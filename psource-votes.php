@@ -3,7 +3,7 @@
 Plugin Name: PS Voting
 Plugin URI: https://n3rds.work/piestingtal_source/beitrags-voting/
 Description: Messe die Beliebtheit des Inhalts Deiner Webseite, indem Du Deine Besucher oder Benutzer über diesen Inhalt abstimmen lässt. So ähnlich wie Dein persönliches Digg oder Reddit, und es steckt voller Funktionen!
-Version: 2.2.7
+Version: 2.2.8
 Requires at least: 4.9
 Text Domain: wdpv
 Author: WMS N@W

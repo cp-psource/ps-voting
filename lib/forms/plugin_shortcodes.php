@@ -11,7 +11,7 @@
 			<dt class="attributes"><?php _e( 'Attribute', 'wdpv' ); ?>:</dt> <dd><?php _ex( 'Keine', 'Attribute (keine)', 'wdpv' ); ?></dd>
 		</dl>
 	</dd>
-	<dd><?php _e('Dies ist der Haupt-Abstimmungs-Shortcode. Es werden alle Teile des Abstimmungs-Gadgets angezeigt - Link "NVote up", Link "Vote down" und Ergebnisse.', 'wdpv' ); ?></dd>
+	<dd><?php _e('Dies ist der Haupt-Abstimmungs-Shortcode. Es werden alle Teile des Abstimmungs-Gadgets angezeigt - Link "Vote up", Link "Vote down" und Ergebnisse.', 'wdpv' ); ?></dd>
 	<dd>
 		<dl>
 			<dt class="examples"><?php _e( 'Beispiel', 'wdpv' ); ?>:</dt>
