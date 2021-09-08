@@ -2,8 +2,9 @@
 /*
 Plugin Name: PS Voting
 Plugin URI: https://n3rds.work/piestingtal_source/beitrags-voting/
-Description: Messe die Beliebtheit des Inhalts Deiner Website, indem Du Deine Besucher oder Benutzer über diesen Inhalt abstimmen lässt. So ähnlich wie Ihr persönliches Digg oder Reddit, und es steckt voller Funktionen!
-Version: 2.2.6
+Description: Messe die Beliebtheit des Inhalts Deiner Webseite, indem Du Deine Besucher oder Benutzer über diesen Inhalt abstimmen lässt. So ähnlich wie Dein persönliches Digg oder Reddit, und es steckt voller Funktionen!
+Version: 2.2.7
+Requires at least: 4.9
 Text Domain: wdpv
 Author: WMS N@W
 Author URI: https://n3rds.work
@@ -53,7 +54,7 @@ if (is_multisite() && defined('WPMU_PLUGIN_URL') && defined('WPMU_PLUGIN_DIR') &
 } else {
 	// No textdomain is loaded because we can't determine the plugin location.
 	// No point in trying to add textdomain to string and/or localizing it.
-	wp_die(__('Es gab ein Problem beim Bestimmen, wo das Post Voting-Plugin installiert ist. Bitte erneut installieren.'));
+	wp_die(__('Es gab ein Problem beim Bestimmen, wo das Psource Voting-Plugin installiert ist. Bitte erneut installieren.'));
 }
 $textdomain_handler('wdpv', false, WDPV_PLUGIN_SELF_DIRNAME . '/languages/');
 

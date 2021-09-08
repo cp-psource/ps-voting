@@ -1,6 +1,6 @@
 <?php
 /**
- * Handles all Post Voting plugins.
+ * Handles all Psource Voting plugins.
  */
 class Wdpv_PluginsHandler {
 

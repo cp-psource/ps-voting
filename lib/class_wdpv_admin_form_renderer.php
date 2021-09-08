@@ -35,8 +35,8 @@ class Wdpv_AdminFormRenderer {
 	function create_use_ip_check_box () {
 		echo $this->_create_checkbox ('use_ip_check');
 		_e(
-			'<p>Standardmäßig werden Besucher auch nach IP verfolgt, um Mehrfachabstimmungen zu vermeiden. Dies kann jedoch in bestimmten Fällen problematisch sein (z. B. mehrere Benutzer hinter einem einzelnen Router)..</p>' .
-			'<p>Setze dies auf "Nein", wenn Sie diese Maßnahme nicht verwenden möchten.</p>',
+			'<p>Standardmäßig werden Besucher auch nach IP verfolgt, um Mehrfachabstimmungen zu vermeiden. Dies kann jedoch in bestimmten Fällen problematisch sein (z. B. mehrere Benutzer hinter einem einzelnen Router).</p>' .
+			'<p>Setze dies auf "Nein", wenn Du diese Maßnahme nicht verwenden möchtest.</p>',
 			'wdpv'
 		);
 	}
@@ -128,7 +128,7 @@ class Wdpv_AdminFormRenderer {
 			"<br />";
 		}
 		_e(
-			'<p>Voting wird <strong><em>nicht</em></strong> für ausgewählte Beitragstypen angezeigt.</p>',
+			'<p>Die Abstimmung wird <strong><em>nicht</em></strong> für ausgewählte Beitragstypen angezeigt.</p>',
 			'wdpv'
 		);
 	}
@@ -138,9 +138,9 @@ class Wdpv_AdminFormRenderer {
 	function create_bp_publish_activity_box () {
 		echo $this->_create_checkbox ('bp_publish_activity');
 		echo '<div><small>' . __('Aktivitäten werden nur für Deine angemeldeten Benutzer aufgezeichnet', 'wdpv') . '</small></div>';
-		echo __("Aus dem gesamten Aktivitätsstream ausblenden:", 'wdpv') . ' ';
+		echo '<div><strong>' . __("Aus dem gesamten Aktivitätsstream ausblenden:", 'wdpv') . '</strong></div>';
 		echo $this->_create_checkbox ('bp_publish_activity_local');
-		echo '<div><small>' . __('Aufgezeichnete Aktivitäten werden in Ihrem gesamten Aktivitätsstrom ausgeblendet', 'wdpv') . '</small></div>';
+		echo '<div><small>' . __('Aufgezeichnete Aktivitäten werden in Deinem gesamten Aktivitätsstrom ausgeblendet', 'wdpv') . '</small></div>';
 	}
 	function create_bp_profile_votes_box () {
 		$opt = $this->_get_option();
