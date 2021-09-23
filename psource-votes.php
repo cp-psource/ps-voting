@@ -3,7 +3,7 @@
 Plugin Name: PS Voting
 Plugin URI: https://n3rds.work/piestingtal_source/beitrags-voting/
 Description: Messe die Beliebtheit des Inhalts Deiner Webseite, indem Du Deine Besucher oder Benutzer über diesen Inhalt abstimmen lässt. So ähnlich wie Dein persönliches Digg oder Reddit, und es steckt voller Funktionen!
-Version: 2.2.8
+Version: 2.2.9
 Requires at least: 4.9
 Text Domain: wdpv
 Author: WMS N@W
@@ -26,7 +26,7 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
-require 'lib/psource-plugin-update/plugin-update-checker.php';
+require 'psource/psource-plugin-update/plugin-update-checker.php';
 $MyUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	'https://n3rds.work//wp-update-server/?action=get_metadata&slug=ps-voting', 
 	__FILE__, 

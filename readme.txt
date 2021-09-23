@@ -4,7 +4,7 @@ Donate link: https://n3rds.work/spendenaktionen/unterstuetze-unsere-psource-free
 Tags: multisite, abstimmung, voting, post,
 Requires at least: 4.9
 Tested up to: 5.6
-Stable tag: 2.2.8
+Stable tag: 2.2.9
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -22,11 +22,39 @@ Mit Stil abstimmen
 Wähle aus 6 Abstimmungssymbolstilen, die perfekt zum Erscheinungsbild Deiner Webseite passen. 
 Füge automatisch Abstimmungssymbole über oder unter Deinem Beitrag ein oder verwende Shortcodes für die benutzerdefinierte Integration.
 
-== Screenshots ==
+[POWERED BY PSOURCE](https://n3rds.work/psource_kategorien/psource-plugins/)
+
+[Projektseite](https://n3rds.work/piestingtal_source/beitrags-voting/)
+[Handbuch](https://n3rds.work/docs/beitrags-voting-handbuch/)
+[Supportforum](https://n3rds.work/forums/forum/ps-voting-supportforum/)
+[GitHub](https://github.com/piestingtal-source/ps-voting)
+
+== Mehr PSOURCE ==
+
+= Finde mehr Piestingtal.Source =
+
+Wirf einen Blick in unser [PSOURCE Sortiment](https://n3rds.work/psource_kategorien/psource-plugins/) und hole noch mehr aus Deinem WordPress/ClassicPress!
+
+Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswork-digalize-das-piestingtal/newsletter-management/) über unsere Piestingtal.Source informiert!
+
+== Hilf uns ==
+
+Viele, viele Kaffees konsumieren wir während wir an unseren Plugins und Themes arbeiten.
+Wie wärs? Möchtest Du uns mit einer Kaffee-Spende bei der Arbeit an unseren Plugins unterstützen?
+
+= Unterstütze uns =
+
+Mach eine [Spende per Überweisung oder PayPal](https://n3rds.work/spendenaktionen/unterstuetze-unsere-psource-free-werke/) wir Danken Dir!
+
+Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswork-digalize-das-piestingtal/newsletter-management/) über unsere Piestingtal.Source informiert!
 
 
 
 == ChangeLog ==
+
+= 2.2.9 = DerN3rd =
+
+* Fix Depracated create_function
 
 = 2.2.6 = DerN3rd =
 
