@@ -54,7 +54,9 @@ class Wdpv_AdminPages {
 		$form = new Wdpv_AdminFormRenderer;
 
 		register_setting('wdpv', 'wdpv');
-		add_settings_section('wdpv_voting', __('Abstimmungseinstellungen', 'wdpv'), create_function('', ''), 'wdpv_options_page');
+		//add_settings_section('wdpv_voting', __('Abstimmungseinstellungen', 'wdpv'), create_function('', ''), 'wdpv_options_page');
+		//fix deprecated create_function
+		add_settings_section( 'wdpv_voting', __('Abstimmungseinstellungen', 'wdpv'), 'Wdpv_AdminFormRenderer',  'wdpv_options_page');
 		add_settings_field('wdpv_allow_voting', __('Abstimmung zulassen', 'wdpv'), array($form, 'create_allow_voting_box'), 'wdpv_options_page', 'wdpv_voting');
 		add_settings_field('wdpv_allow_visitor_voting', __('Ermögliche die Abstimmung für nicht registrierte Benutzer', 'wdpv'), array($form, 'create_allow_visitor_voting_box'), 'wdpv_options_page', 'wdpv_voting');
 		add_settings_field('wdpv_use_ip_check_link', __('Verwende die IP-Prüfung', 'wdpv'), array($form, 'create_use_ip_check_box'), 'wdpv_options_page', 'wdpv_voting');
@@ -70,13 +72,15 @@ class Wdpv_AdminPages {
 
 		// BuddyPress integration
 		if (defined('BP_VERSION')) {
-			add_settings_section('wdpv_bp', __('BuddyPress Integration', 'wdpv'), create_function('', ''), 'wdpv_options_page');
+			//add_settings_section('wdpv_bp', __('BuddyPress Integration', 'wdpv'), create_function('', ''), 'wdpv_options_page');
+			add_settings_section('wdpv_bp', __('BuddyPress Integration', 'wdpv'), 'Wdpv_AdminFormRenderer', 'wdpv_options_page');
 			add_settings_field('wdpv_bp_publish_activity', __('Stimmen im Aktivitätsstream veröffentlichen', 'wdpv'), array($form, 'create_bp_publish_activity_box'), 'wdpv_options_page', 'wdpv_bp');
 			add_settings_field('wdpv_bp_profile_votes', __('Letzte Abstimmungen auf der Benutzerprofilseite anzeigen', 'wdpv'), array($form, 'create_bp_profile_votes_box'), 'wdpv_options_page', 'wdpv_bp');
 		}
 
 		if (!is_multisite() || (is_multisite() && is_network_admin())) { // On multisite, plugins are available only on network admin pages
-			add_settings_section('wdpv_plugins', __('Voting Erweiterungen', 'wdpv'), create_function('', ''), 'wdpv_options_page');
+			//add_settings_section('wdpv_plugins', __('Voting Erweiterungen', 'wdpv'), create_function('', ''), 'wdpv_options_page');
+			add_settings_section('wdpv_plugins', __('Voting Erweiterungen', 'wdpv'), 'Wdpv_AdminFormRenderer', 'wdpv_options_page');
 			add_settings_field('wdpv_plugins_all_plugins', __('Alle Erweiterungen', 'wdpv'), array($form, 'create_plugins_box'), 'wdpv_options_page', 'wdpv_plugins');
 		}
 
