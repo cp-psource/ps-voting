@@ -177,7 +177,7 @@ class Wdpv_AdminPages {
 
 		$args = array (
 			'action' => sprintf(
-				__('<a href="%s">%s</a> abgestimmt <a href="%s">%s</a>', 'wdpv'),
+				__('<a href="%s">%s</a> hat bei <a href="%s">%s</a> abgestimmt', 'wdpv'),
 				$user_link, $username, $link, $title
 			),
 			'component' => 'wdpv_post_vote',
