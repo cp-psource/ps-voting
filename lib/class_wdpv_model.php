@@ -192,7 +192,7 @@ class Wdpv_Model {
 
 		$where = '';
 		if ($time) {
-			$valid_units = array('stunde', 'tage', 'woche', 'monate', 'jahre');
+			$valid_units = array('hour', 'day', 'week', 'month', 'year');
 			$unit = in_array($unit, $valid_units) ? $unit : 'month';
 			$where = "AND date > DATE_SUB(CURDATE(), INTERVAL {$time} {$unit})";
 		}
