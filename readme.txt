@@ -56,6 +56,7 @@ Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswor
 
 * In der Aktivität (BuddyPress) klingt es jetzt nach einem Deutschen Satz
 * Fix Datenbankfehler
+* +Readme
 
 = 2.2.9 = DerN3rd =
 
