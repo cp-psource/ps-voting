@@ -52,9 +52,11 @@ Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswor
 
 == ChangeLog ==
 
-= 2.3.0 = DerN3rd =
+= 2.3.1 = DerN3rd =
 
 * PhP 8.1 Fix
+* Zeit-Array Strings-Verbesserung
+
 
 = 2.3.0 = DerN3rd =
 

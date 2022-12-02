@@ -8,12 +8,12 @@ class Wdpv_Options {
 
 	function __construct () {
 		$this->timeframes = array(
-			'this_week' => __('Diese Woche', 'wdpv'),
-			'last_week' => __('Letzte Woche', 'wdpv'),
+			'this_week'  => __('Diese Woche', 'wdpv'),
+			'last_week'  => __('Letzte Woche', 'wdpv'),
 			'this_month' => __('Diesen Monat', 'wdpv'),
 			'last_month' => __('Letzten Monat', 'wdpv'),
-			'this_year' => __('Dieses Jahr', 'wdpv'),
-			'last_year' => __('Letztes Jahr', 'wdpv'),
+			'this_year'  => __('Dieses Jahr', 'wdpv'),
+			'last_year'  => __('Letztes Jahr', 'wdpv'),
 		);
 	}
 

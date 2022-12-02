@@ -169,9 +169,15 @@ class Wdpv_AdminFormRenderer {
 		}
 		echo '</select> ';
 		echo '<select name="wdpv[bp_profile_votes_unit]">';
-		foreach (array('hour', 'day', 'week', 'month', 'year') as $unit) {
+		foreach (array(
+			'hour'  => __('Stunde(n)', 'wdpv'),
+			'day'   => __('Tag(e)', 'wdpv'),
+			'week'  => __('Woche(n)', 'wdpv'),
+			'month' => __('Monat(e)', 'wdpv'),
+			'year'  => __('Jahr(e)', 'wdpv'),
+			) as $unit) {
 			$selected = ($unit == @$opt['bp_profile_votes_unit']) ? 'selected="selected"' : '';
-			$title = ucfirst($unit) . '(n)';
+			$title = ucfirst($unit) /*. '(n)'*/;
 			echo "<option value='{$unit}' {$selected}>{$title}</option>";
 		}
 		echo '</select> ';
