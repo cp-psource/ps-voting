@@ -12,7 +12,7 @@ class Wdpv_AdminPages {
 
 		$this->tabs = array(
 			'settings' => __( 'Einstellungen', 'wdpv' ),
-			'shortcodes' => __( 'Shortcodes', 'wdpv' ),
+			'shortcodes' => __( 'Shortcodes & Hilfe', 'wdpv' ),
 		);
 
 		add_action( 'admin_enqueue_scripts', array( $this, 'enqueue_scripts' ) );

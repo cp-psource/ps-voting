@@ -57,6 +57,7 @@ Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswor
 * PhP 8.1 Fix
 * Zeit-Array Strings-Verbesserung
 * Statistikmenüslug übersetzbar
+* +Pot
 
 
 = 2.3.0 = DerN3rd =
