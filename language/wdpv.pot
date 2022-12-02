@@ -568,7 +568,7 @@ msgid "Shortcodes"
 msgstr ""
 
 #: lib/class_wdpv_admin_form_renderer.php:55
-msgid "Sowohl vor als auch nach der Post"
+msgid "Sowohl vor als auch nach dem Beitrag"
 msgstr ""
 
 #: lib/class_wdpv_admin_form_renderer.php:73

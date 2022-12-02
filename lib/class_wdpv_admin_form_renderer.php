@@ -52,7 +52,7 @@ class Wdpv_AdminFormRenderer {
 		$positions = array (
 			'top' => __('Vor dem Beitrag', 'wdpv'),
 			'bottom' => __('Nach dem Beitrag', 'wdpv'),
-			'both' => __('Sowohl vor als auch nach der Post', 'wdpv'),
+			'both' => __('Sowohl vor als auch nach dem Beitrag', 'wdpv'),
 			'manual' => __('Positioniere die Box manuell mit einem Shortcode (<strong>[wdpv_vote]</strong>) oder einem Widget', 'wdpv'),
 		);
 		foreach ($positions as $pos => $label) {
