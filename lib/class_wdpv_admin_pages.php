@@ -47,7 +47,7 @@ class Wdpv_AdminPages {
 			die;
 		}
 		add_submenu_page('settings.php', 'Psource Voting', 'Psource Voting', 'manage_network_options', 'wdpv', array($this, 'create_admin_page'));
-		add_dashboard_page('Voting Stats', __( 'Abstimmungsstatistik', 'wdpv' ), 'manage_network_options', 'wdpv_stats', array($this, 'create_stats_page'));
+		add_dashboard_page(__( 'Abstimmungsstatistik', 'wdpv' ), __( 'Abstimmungsstatistik', 'wdpv' ), 'manage_network_options', 'wdpv_stats', array($this, 'create_stats_page'));
 	}
 
 	function register_settings () {
@@ -90,7 +90,7 @@ class Wdpv_AdminPages {
 	function create_blog_admin_menu_entry () {
 		$settings_perms = $this->data->get_option('disable_siteadmin_changes') ? 'manage_network_options' : 'manage_options';
 		add_options_page('PS Voting', 'PS Voting', $settings_perms, 'wdpv', array($this, 'create_admin_page'));
-		add_dashboard_page(__( 'Abstimmungsstatistik', 'wdpv' ), 'Voting Stats', 'manage_options', 'wdpv_stats', array($this, 'create_stats_page'));
+		add_dashboard_page(__( 'Abstimmungsstatistik', 'wdpv' ), __( 'Abstimmungsstatistik', 'wdpv' ), 'manage_options', 'wdpv_stats', array($this, 'create_stats_page'));
 	}
 
 	function get_current_tab() {
