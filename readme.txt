@@ -54,6 +54,10 @@ Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswor
 
 = 2.3.0 = DerN3rd =
 
+* PhP 8.1 Fix
+
+= 2.3.0 = DerN3rd =
+
 * In der Aktivität (BuddyPress) klingt es jetzt nach einem Deutschen Satz
 * Fix Datenbankfehler
 * +Readme
