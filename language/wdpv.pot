@@ -1,0 +1,794 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PS Voting\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-02 23:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1\n"
+"X-Domain: wdpv"
+
+#: lib/class_wdpv_admin_pages.php:180
+#, php-format
+msgid "<a href=\"%s\">%s</a> hat bei <a href=\"%s\">%s</a> abgestimmt"
+msgstr ""
+
+#: lib/class_wdpv_codec.php:29
+#, php-format
+msgid ""
+"<div class=\"wdpv_login\">Dieser Beitrag hat %s Votes. <a href=\"%s\">Logge "
+"Dich ein</a> um abzustimmen</div>"
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:84
+#, php-format
+msgid ""
+"<em>(optional)</em> Beiträge aus dem gesamten Netzwerk anzeigen. Stelle %s "
+"ein, wenn Du Beiträge aus dem gesamten Netzwerk anzeigen möchtest."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:185
+msgid ""
+"<em>(optional)</em> Beiträge aus dem gesamten Netzwerk anzeigen. Stelle "
+"<code>true</code> ein, wenn Du Beiträge aus dem gesamten Netzwerk anzeigen "
+"möchtest."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:82 lib/forms/plugin_shortcodes.php:184
+msgid "<em>(optional)</em> Zeige nur so viele Beiträge. Der Standardwert ist 5"
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:217 lib/forms/plugin_shortcodes.php:302
+msgid ""
+"<em>wird</em> alle Teile des Abstimmungs-Gadgets zurückgeben - Link \"Vote "
+"up\", Link \"Vote down\" und Ergebnisse."
+msgstr ""
+
+#: lib/class_wdpv_admin_form_renderer.php:130
+msgid ""
+"<p>Die Abstimmung wird <strong><em>nicht</em></strong> für ausgewählte "
+"Beitragstypen angezeigt.</p>"
+msgstr ""
+
+#: lib/class_wdpv_admin_form_renderer.php:45
+msgid ""
+"<p>Setze dies auf \"Ja\", wenn Du stattdessen den Login-Link haben möchtest."
+"</p>"
+msgstr ""
+
+#: lib/class_wdpv_admin_form_renderer.php:37
+msgid ""
+"<p>Setze dies auf \"Nein\", wenn Du diese Maßnahme nicht verwenden möchtest."
+"</p>"
+msgstr ""
+
+#: lib/class_wdpv_admin_form_renderer.php:65
+msgid ""
+"<p>Setze diese Option auf \"Ja\", um allen Posts auf der Frontpage eine "
+"Abstimmung hinzuzufügen.</p>"
+msgstr ""
+
+#: lib/class_wdpv_admin_form_renderer.php:110
+msgid ""
+"<p>Setze diese Option auf \"Ja\", um zu verhindern, dass sie Änderungen an "
+"den Plugin-Einstellungen vornehmen.</p>"
+msgstr ""
+
+#: lib/class_wdpv_admin_form_renderer.php:103
+msgid ""
+"<p>Wenn diese Option aktiviert ist, werden negative Stimmen verhindert, "
+"indem nur ein positiver Abstimmungslink angezeigt wird.</p>"
+msgstr ""
+
+#: lib/class_wpdv_widget_popular.php:103
+#, php-format
+msgid "<span class=\"wdpv_vote_count\">(%s Abstimmungen)</span>"
+msgstr ""
+
+#: lib/class_wpdv_widget_network_popular.php:89
+#, php-format
+msgid "<span class=\"wdpv_vote_count\">(%s Stimmen)</span>"
+msgstr ""
+
+#: lib/class_wdpv_codec.php:74
+#, php-format
+msgid "<span class=\"wdpv_vote_count\">(%s votes)</span>"
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:99 lib/forms/plugin_shortcodes.php:198
+msgid ""
+"<strong>Hinweis:</strong> Beliebte Beiträge werden angezeigt, auch wenn Du "
+"keine Abstimmung zulässt."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:72 lib/forms/plugin_shortcodes.php:177
+msgid ""
+"<strong>Hinweis:</strong> Die Ergebnisse werden angezeigt, auch wenn Du "
+"keine Abstimmung zulässt."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:282 lib/forms/plugin_shortcodes.php:370
+#: lib/forms/plugin_shortcodes.php:392 lib/forms/plugin_shortcodes.php:426
+msgid ""
+"<strong>Hinweis:</strong> Die Ergebnisse werden auch dann zurückgegeben, "
+"wenn Du keine Abstimmung zulässt."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:21 lib/forms/plugin_shortcodes.php:123
+msgid ""
+"<strong>Hinweis:</strong> Wenn Du keine Abstimmung zulässt, werden nur die "
+"Ergebnisse angezeigt."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:222 lib/forms/plugin_shortcodes.php:307
+msgid ""
+"<strong>Hinweis:</strong> Wenn Du keine Abstimmung zulässt, werden nur die "
+"Ergebnisse zurückgegeben."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:40 lib/forms/plugin_shortcodes.php:56
+#: lib/forms/plugin_shortcodes.php:141 lib/forms/plugin_shortcodes.php:159
+msgid ""
+"<strong>Hinweis:</strong> Wenn Du keine Abstimmung zulässt, wird nichts "
+"angezeigt."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:242 lib/forms/plugin_shortcodes.php:262
+#: lib/forms/plugin_shortcodes.php:328 lib/forms/plugin_shortcodes.php:349
+msgid ""
+"<strong>Hinweis:</strong> Wenn Du keine Abstimmung zulässt, wird nichts "
+"zurückgegeben."
+msgstr ""
+
+#: lib/class_wdpv_admin_pages.php:67
+msgid "Abstimmung im Frontend"
+msgstr ""
+
+#: lib/class_wpdv_widget_network_popular.php:44
+#: lib/class_wpdv_widget_popular.php:57
+msgid "Abstimmung innerhalb:"
+msgstr ""
+
+#: lib/class_wdpv_admin_pages.php:59
+msgid "Abstimmung zulassen"
+msgstr ""
+
+#: lib/class_wdpv_admin_form_renderer.php:164
+msgid "Abstimmung(en) innerhalb der letzten"
+msgstr ""
+
+#: lib/class_wdpv_admin_pages.php:64
+msgid "Abstimmungsbox Position"
+msgstr ""
+
+#: lib/class_wdpv_admin_pages.php:57
+msgid "Abstimmungseinstellungen"
+msgstr ""
+
+#: lib/class_wpdv_widget_voting.php:47
+msgid "Abstimmungsergebnisse anzeigen:"
+msgstr ""
+
+#: lib/class_wdpv_admin_pages.php:50 lib/class_wdpv_admin_pages.php:93
+#: lib/forms/plugin_stats.php:2
+msgid "Abstimmungsstatistik"
+msgstr ""
+
+#: lib/class_wdpv_admin_form_renderer.php:208
+msgid "Aktivieren"
+msgstr ""
+
+#: lib/class_wdpv_admin_form_renderer.php:140
+msgid "Aktivitäten werden nur für Deine angemeldeten Benutzer aufgezeichnet"
+msgstr ""
+
+#: lib/class_wdpv_admin_form_renderer.php:158
+msgid "alle"
+msgstr ""
+
+#: lib/class_wdpv_admin_pages.php:83
+msgid "Alle Erweiterungen"
+msgstr ""
+
+#: lib/class_wpdv_widget_network_popular.php:46
+#: lib/class_wpdv_widget_popular.php:49 lib/class_wpdv_widget_popular.php:59
+msgid "Allzeit"
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:11 lib/forms/plugin_shortcodes.php:30
+#: lib/forms/plugin_shortcodes.php:46 lib/forms/plugin_shortcodes.php:62
+#: lib/forms/plugin_shortcodes.php:78 lib/forms/plugin_shortcodes.php:111
+#: lib/forms/plugin_shortcodes.php:129 lib/forms/plugin_shortcodes.php:147
+#: lib/forms/plugin_shortcodes.php:165 lib/forms/plugin_shortcodes.php:183
+#: lib/forms/plugin_shortcodes.php:208 lib/forms/plugin_shortcodes.php:228
+#: lib/forms/plugin_shortcodes.php:248 lib/forms/plugin_shortcodes.php:268
+#: lib/forms/plugin_shortcodes.php:292 lib/forms/plugin_shortcodes.php:313
+#: lib/forms/plugin_shortcodes.php:334 lib/forms/plugin_shortcodes.php:355
+#: lib/forms/plugin_shortcodes.php:380 lib/forms/plugin_shortcodes.php:398
+#: lib/forms/plugin_shortcodes.php:418
+msgid "Attribute"
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:11 lib/forms/plugin_shortcodes.php:30
+#: lib/forms/plugin_shortcodes.php:46 lib/forms/plugin_shortcodes.php:62
+msgctxt "Attribute (keine)"
+msgid "Keine"
+msgstr ""
+
+#: lib/class_wdpv_admin_form_renderer.php:143
+msgid ""
+"Aufgezeichnete Aktivitäten werden in Deinem gesamten Aktivitätsstrom "
+"ausgeblendet"
+msgstr ""
+
+#: lib/class_wdpv_admin_form_renderer.php:141
+msgid "Aus dem gesamten Aktivitätsstream ausblenden:"
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:17 lib/forms/plugin_shortcodes.php:36
+#: lib/forms/plugin_shortcodes.php:52 lib/forms/plugin_shortcodes.php:388
+msgid "Beispiel"
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:68 lib/forms/plugin_shortcodes.php:92
+#: lib/forms/plugin_shortcodes.php:118 lib/forms/plugin_shortcodes.php:136
+#: lib/forms/plugin_shortcodes.php:154 lib/forms/plugin_shortcodes.php:172
+#: lib/forms/plugin_shortcodes.php:191 lib/forms/plugin_shortcodes.php:216
+#: lib/forms/plugin_shortcodes.php:236 lib/forms/plugin_shortcodes.php:256
+#: lib/forms/plugin_shortcodes.php:276 lib/forms/plugin_shortcodes.php:301
+#: lib/forms/plugin_shortcodes.php:322 lib/forms/plugin_shortcodes.php:343
+#: lib/forms/plugin_shortcodes.php:364 lib/forms/plugin_shortcodes.php:406
+msgid "Beispiele"
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:202
+msgid "Benutzerdefinierte Post-Variationen"
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:382 lib/forms/plugin_shortcodes.php:400
+#: lib/forms/plugin_shortcodes.php:420
+msgid "Beschränke die zurückgegebenen Ergebnisse auf so viele."
+msgstr ""
+
+#: lib/forms/plugin_stats.php:40
+msgid "Blog"
+msgstr ""
+
+#: lib/class_wdpv_admin_pages.php:75
+msgid "BuddyPress Integration"
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:385
+msgid ""
+"Dadurch werden <em>nur</em> nur die Abstimmungsergebnisse innerhalb der "
+"ausgewählten Zeitspanne zurückgegeben."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:273 lib/forms/plugin_shortcodes.php:361
+msgid ""
+"Dadurch werden <em>nur</em> nur die Abstimmungsergebnisse zurückgegeben."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:403
+msgid ""
+"Dadurch werden die Abstimmungsergebnisse innerhalb der ausgewählten "
+"Zeitspanne <em>ausgegeben</em>."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:340
+msgid "Dadurch wird <em>nur der Link \"Abstimmen\"</em> zurückgegeben."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:253
+msgid "Dadurch wird <em>nur der Link \"Vote down\"</em> zurückgegeben."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:233 lib/forms/plugin_shortcodes.php:319
+msgid "Dadurch wird <em>nur</em> nur der Link \"Vote up\" zurückgegeben."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:424
+msgid ""
+"Dadurch wird eine <code>WP_Query</code>-Instanz erzeugt, die für eine "
+"bestimmte Zeitspanne mit den beliebten Posts gefüllt ist."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:89 lib/forms/plugin_shortcodes.php:188
+msgid ""
+"Daraufhin wird die Liste der Beiträge mit der höchsten Stimmenzahl angezeigt."
+msgstr ""
+
+#: lib/class_wdpv_admin_pages.php:65
+msgid "Darstellung"
+msgstr ""
+
+#: lib/class_wdpv_admin_form_renderer.php:206
+msgid "Deaktivieren"
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:294 lib/forms/plugin_shortcodes.php:315
+msgid "Deine Blog ID"
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:336 lib/forms/plugin_shortcodes.php:357
+msgid "Deine Blog-ID"
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:230 lib/forms/plugin_shortcodes.php:250
+#: lib/forms/plugin_shortcodes.php:270 lib/forms/plugin_shortcodes.php:295
+#: lib/forms/plugin_shortcodes.php:316
+msgid "Deine Post ID"
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:210 lib/forms/plugin_shortcodes.php:337
+#: lib/forms/plugin_shortcodes.php:358
+msgid "Deine Post-ID"
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:213 lib/forms/plugin_shortcodes.php:298
+msgid ""
+"Dies ist das Haupt-Tag für Abstimmungsvorlagen. Es werden <em>alle</em> alle "
+"Teile des Abstimmungs-Gadgets zurückgegeben - Link \"Vote up\", Link \"Vote "
+"down\" und Ergebnisse."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:115
+msgid ""
+"Dies ist das Haupt-Tag für Abstimmungsvorlagen. Es werden alle Teile des "
+"Abstimmungs-Gadgets angezeigt - Link \"Vote up\", Link \"Vote down\" und "
+"Ergebnisse."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:14
+msgid ""
+"Dies ist der Haupt-Abstimmungs-Shortcode. Es werden alle Teile des "
+"Abstimmungs-Gadgets angezeigt - Link \"Vote up\", Link \"Vote down\" und "
+"Ergebnisse."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:49 lib/forms/plugin_shortcodes.php:151
+msgid "Dies zeigt nur den Link \"Vote down\" an."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:33 lib/forms/plugin_shortcodes.php:133
+msgid "Dies zeigt nur den Link \"Vote up\" an."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:65 lib/forms/plugin_shortcodes.php:169
+msgid "Dies zeigt nur die Abstimmungsergebnisse an."
+msgstr ""
+
+#: lib/class_wdpv_options.php:11
+msgid "Diese Woche"
+msgstr ""
+
+#: lib/class_wdpv_options.php:13
+msgid "Diesen Monat"
+msgstr ""
+
+#: lib/class_wdpv_options.php:15
+msgid "Dieses Jahr"
+msgstr ""
+
+#: lib/forms/plugin_stats.php:15 lib/forms/plugin_stats.php:44
+msgid "Downvotes"
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:425
+msgid ""
+"Du kannst dann das zurückgegebene Ergebnis verwenden, um benutzerdefinierte "
+"Schleifen innerhalb Deines Themes zu erstellen."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:381 lib/forms/plugin_shortcodes.php:399
+#: lib/forms/plugin_shortcodes.php:419
+msgid "Eine der anerkannten Zeitspannen"
+msgstr ""
+
+#: lib/class_wdpv_admin_pages.php:14
+msgid "Einstellungen"
+msgstr ""
+
+#: lib/class_wdpv_admin_pages.php:60
+msgid "Ermögliche die Abstimmung für nicht registrierte Benutzer"
+msgstr ""
+
+#: lib/class_wdpv_admin_form_renderer.php:191
+msgid "Erweiterung Beschreibung"
+msgstr ""
+
+#: lib/class_wdpv_admin_form_renderer.php:190
+msgid "Erweiterung Name"
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:5
+msgid ""
+"Es gibt mehrere Shortcodes, mit denen Du genau steuern kannst, was angezeigt "
+"wird."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:412
+msgid "Fortgeschritten"
+msgstr ""
+
+#: lib/forms/plugin_stats.php:13 lib/forms/plugin_stats.php:42
+msgid "Gesamt"
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:367
+msgid ""
+"gibt Abstimmungsergebnisse für Deinen Beitrag mit der ID 12 aus dem Blog in "
+"Deinem Netzwerk mit der ID 4 zurück."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:279
+msgid "gibt Abstimmungsergebnisse für Deinen Beitrag mit der ID 12 zurück."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:304
+msgid ""
+"gibt alle Teile des Abstimmungs-Gadgets für Deinen Beitrag mit der ID 12 aus "
+"dem Blog in Deinem Netzwerk mit der ID 4 zurück."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:219
+msgid ""
+"gibt alle Teile des Abstimmungs-Gadgets für Deinen Beitrag mit der ID 12 "
+"zurück."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://n3rds.work"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://n3rds.work/piestingtal_source/beitrags-voting/"
+msgstr ""
+
+#: lib/class_wdpv_admin_form_renderer.php:16
+msgid "Ja"
+msgstr ""
+
+#: lib/forms/bp_profile.php:17
+msgid "Keine aktuellen Abstimmungen"
+msgstr ""
+
+#: lib/forms/bp_profile.php:1
+msgid "Letzte Abstimmungen"
+msgstr ""
+
+#: lib/class_wdpv_admin_pages.php:77
+msgid "Letzte Abstimmungen auf der Benutzerprofilseite anzeigen"
+msgstr ""
+
+#: lib/class_wdpv_options.php:12
+msgid "Letzte Woche"
+msgstr ""
+
+#: lib/class_wdpv_options.php:14
+msgid "Letzten Monat"
+msgstr ""
+
+#: lib/class_wdpv_options.php:16
+msgid "Letztes Jahr"
+msgstr ""
+
+#: lib/class_wdpv_admin_pages.php:62
+msgid "Login-Link für Besucher anzeigen"
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:112 lib/forms/plugin_shortcodes.php:130
+#: lib/forms/plugin_shortcodes.php:148 lib/forms/plugin_shortcodes.php:166
+#: lib/forms/plugin_shortcodes.php:209 lib/forms/plugin_shortcodes.php:229
+#: lib/forms/plugin_shortcodes.php:249 lib/forms/plugin_shortcodes.php:269
+#: lib/forms/plugin_shortcodes.php:293 lib/forms/plugin_shortcodes.php:314
+#: lib/forms/plugin_shortcodes.php:335 lib/forms/plugin_shortcodes.php:356
+#, php-format
+msgid "Lösche die Floats, %s oder %s. Der Standardwert ist %s"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Messe die Beliebtheit des Inhalts Deiner Webseite, indem Du Deine Besucher "
+"oder Benutzer über diesen Inhalt abstimmen lässt. So ähnlich wie Dein "
+"persönliches Digg oder Reddit, und es steckt voller Funktionen!"
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:286
+msgid "Multisite-Variationen"
+msgstr ""
+
+#: lib/class_wdpv_admin_form_renderer.php:54
+msgid "Nach dem Beitrag"
+msgstr ""
+
+#: lib/class_wdpv_admin_form_renderer.php:19
+msgid "Nein"
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:374
+msgid "Periodensensitive Variationen"
+msgstr ""
+
+#: lib/class_wdpv_admin_form_renderer.php:74
+msgid "Pfeile"
+msgstr ""
+
+#: lib/class_wdpv_admin_form_renderer.php:75
+msgid "Plus/Minus"
+msgstr ""
+
+#: lib/class_wdpv_admin_form_renderer.php:56
+msgid ""
+"Positioniere die Box manuell mit einem Shortcode (<strong>[wdpv_vote]"
+"</strong>) oder einem Widget"
+msgstr ""
+
+#. Name of the plugin
+msgid "PS Voting"
+msgstr ""
+
+#: lib/class_wdpv_admin_form_renderer.php:77
+msgid "Q&amp;A Pfeile"
+msgstr ""
+
+#: lib/class_wpdv_widget_voting.php:42
+msgid "Schaltfläche \"Negativ abstimmen\" anzeigen:"
+msgstr ""
+
+#: lib/class_wpdv_widget_voting.php:37
+msgid "Schaltfläche \"Positiv abstimmen\" anzeigen:"
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:8 lib/forms/plugin_shortcodes.php:27
+#: lib/forms/plugin_shortcodes.php:43 lib/forms/plugin_shortcodes.php:59
+#: lib/forms/plugin_shortcodes.php:75 lib/forms/plugin_shortcodes.php:108
+#: lib/forms/plugin_shortcodes.php:126 lib/forms/plugin_shortcodes.php:144
+#: lib/forms/plugin_shortcodes.php:162 lib/forms/plugin_shortcodes.php:180
+#: lib/forms/plugin_shortcodes.php:205 lib/forms/plugin_shortcodes.php:225
+#: lib/forms/plugin_shortcodes.php:245 lib/forms/plugin_shortcodes.php:265
+#: lib/forms/plugin_shortcodes.php:289 lib/forms/plugin_shortcodes.php:310
+#: lib/forms/plugin_shortcodes.php:331 lib/forms/plugin_shortcodes.php:352
+#: lib/forms/plugin_shortcodes.php:377 lib/forms/plugin_shortcodes.php:395
+#: lib/forms/plugin_shortcodes.php:415
+msgctxt "Shortcode Titel"
+msgid "Tag"
+msgstr ""
+
+#: lib/class_wdpv_admin_pages.php:15
+msgid "Shortcodes"
+msgstr ""
+
+#: lib/class_wdpv_admin_form_renderer.php:55
+msgid "Sowohl vor als auch nach der Post"
+msgstr ""
+
+#: lib/class_wdpv_admin_form_renderer.php:73
+msgid "Standard"
+msgstr ""
+
+#: lib/class_wdpv_admin_pages.php:76
+msgid "Stimmen im Aktivitätsstream veröffentlichen"
+msgstr ""
+
+#: lib/class_wdpv_admin_form_renderer.php:78
+msgid "Symbolschriftarten"
+msgstr ""
+
+#: lib/forms/plugin_stats.php:12 lib/forms/plugin_stats.php:41
+msgid "Titel"
+msgstr ""
+
+#: lib/class_wpdv_widget_network_popular.php:29
+#: lib/class_wpdv_widget_popular.php:32 lib/class_wpdv_widget_voting.php:32
+msgid "Titel:"
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:3
+msgid ""
+"Unabhängig von den Einstellungen Deiner <em>Abstimmungsbox-Position</em> "
+"kannst Du jederzeit die Shortcodes verwenden, um Post-Voting in Deinen "
+"Inhalt einzufügen (sofern Du natürlich Post-Voting zulässt)."
+msgstr ""
+
+#: lib/forms/plugin_stats.php:14 lib/forms/plugin_stats.php:43
+msgid "Upvotes"
+msgstr ""
+
+#: lib/class_wdpv_admin_pages.php:69
+msgid "Verhindere dass Seiten-Administratoren Änderungen vornehmen?"
+msgstr ""
+
+#: lib/class_wdpv_admin_pages.php:66
+msgid "Verhindere negative Abstimmungen"
+msgstr ""
+
+#: lib/class_wdpv_admin_form_renderer.php:214
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: lib/class_wdpv_admin_pages.php:61
+msgid "Verwende die IP-Prüfung"
+msgstr ""
+
+#: lib/class_wpdv_widget_popular.php:47
+msgid "Veröffentlicht innerhalb:"
+msgstr ""
+
+#: lib/class_wdpv_admin_form_renderer.php:216
+#, php-format
+msgid "von %s"
+msgstr ""
+
+#: lib/class_wdpv_admin_form_renderer.php:53
+msgid "Vor dem Beitrag"
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:103
+msgid "Vorlagen-Tags"
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:105
+msgid ""
+"Vorlagen-Tags können in Deinen Designs in The Loop verwendet werden, "
+"unabhängig von den Einstellungen für die <em>Abstimmungsbox-Position</em>"
+msgstr ""
+
+#: lib/class_wdpv_admin_pages.php:82
+msgid "Voting Erweiterungen"
+msgstr ""
+
+#: lib/class_wpdv_widget_voting.php:10
+msgid "Voting Widget"
+msgstr ""
+
+#: lib/class_wdpv_admin_form_renderer.php:76
+msgid "Weiße Pfeile"
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:24
+msgid ""
+"Wenn Du das Erscheinungsbild des Gadgets anpassen möchtest, kannst Du einen "
+"oder mehrere der unten aufgeführten Shortcodes verwenden."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:120 lib/forms/plugin_shortcodes.php:138
+#: lib/forms/plugin_shortcodes.php:156 lib/forms/plugin_shortcodes.php:174
+#: lib/forms/plugin_shortcodes.php:218 lib/forms/plugin_shortcodes.php:238
+#: lib/forms/plugin_shortcodes.php:258 lib/forms/plugin_shortcodes.php:278
+#: lib/forms/plugin_shortcodes.php:303 lib/forms/plugin_shortcodes.php:324
+#: lib/forms/plugin_shortcodes.php:345 lib/forms/plugin_shortcodes.php:366
+msgid "wie oben, ohne die Floats zu räumen."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:344
+msgid "wird <em>nur</em> nur den Link \"Abstimmen\" zurückgeben."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:257
+msgid "wird <em>nur</em> nur den Link \"Vote down\" zurückgeben."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:237 lib/forms/plugin_shortcodes.php:323
+msgid "wird <em>nur</em> nur den Link \"Vote up\" zurückgeben."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:277 lib/forms/plugin_shortcodes.php:365
+msgid "wird <em>nur</em> nur die Abstimmungsergebnisse zurückgeben."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:407
+msgid ""
+"wird <em>nur</em> nur die Top 5 der beliebtesten Ergebnisse dieser Woche "
+"ausgeben."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:389
+msgid ""
+"wird <em>nur</em> nur die Top 5 der beliebtesten Ergebnisse dieser Woche "
+"zurückgeben."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:346
+msgid ""
+"wird den Link \"Vote down\" für Deinen Beitrag mit der ID 12 aus dem Blog in "
+"Deinem Netzwerk mit der ID 4 zurückgeben."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:259
+msgid ""
+"wird den Link \"Vote down\" für Deinen Beitrag mit der ID 12 zurückgeben."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:325
+msgid ""
+"wird den Link \"Vote up\" für Deinen Beitrag mit der ID 12 aus dem Blog in "
+"Deinem Netzwerk mit der ID 4 zurückgeben."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:239
+msgid "wird den Link \"Vote up\" für Deinen Beitrag mit der ID 12 zurückgeben."
+msgstr ""
+
+#. Author of the plugin
+msgid "WMS N@W"
+msgstr ""
+
+#: lib/class_wdpv_admin_form_renderer.php:155
+msgid "Zeige"
+msgstr ""
+
+#: lib/class_wdpv_admin_pages.php:63
+msgid "Zeige die Abstimmung für diese Typen <strong>NICHT</strong> an"
+msgstr ""
+
+#: lib/class_wpdv_widget_network_popular.php:34
+#: lib/class_wpdv_widget_popular.php:37
+msgid "Zeige so viele Beiträge:"
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:96 lib/forms/plugin_shortcodes.php:195
+msgid "zeigt 10 Beiträge mit der höchsten Bewertung im gesamten Netzwerk an."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:94 lib/forms/plugin_shortcodes.php:193
+msgid "zeigt 3 am besten bewertete Beiträge im aktuellen Blog an."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:93 lib/forms/plugin_shortcodes.php:192
+msgid "zeigt 5 am besten bewertete Beiträge im aktuellen Blog an."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:95 lib/forms/plugin_shortcodes.php:194
+msgid "zeigt 5 am besten bewertete Beiträge im gesamten Netzwerk an."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:18 lib/forms/plugin_shortcodes.php:119
+msgid ""
+"zeigt alle Teile des Abstimmungs-Gadgets an - Link \"Vote up\", Link \"Vote "
+"down\" und Ergebnisse."
+msgstr ""
+
+#: lib/class_wpdv_widget_voting.php:9
+msgid ""
+"Zeigt das Feld \"Abstimmung\" für den aktuellen Beitrag/die aktuelle Seite "
+"mit der Anzahl der Stimmen an."
+msgstr ""
+
+#: lib/class_wpdv_widget_popular.php:9
+msgid ""
+"Zeigt eine Liste der Beiträge mit der höchsten Stimmenzahl im aktuellen Blog "
+"an."
+msgstr ""
+
+#: lib/class_wpdv_widget_network_popular.php:9
+msgid ""
+"Zeigt eine Liste der Beiträge mit der höchsten Stimmenzahl im gesamten "
+"Netzwerk an."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:53 lib/forms/plugin_shortcodes.php:155
+msgid "zeigt nur den Link \"Vote down\" an."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:37 lib/forms/plugin_shortcodes.php:137
+msgid "zeigt nur den Link \"Vote up\" an."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:69 lib/forms/plugin_shortcodes.php:173
+msgid "zeigt nur die Abstimmungsergebnisse an."
+msgstr ""
+
+#: lib/forms/plugin_shortcodes.php:421
+#, php-format
+msgid "Zusätzliche %s Argumente."
+msgstr ""
