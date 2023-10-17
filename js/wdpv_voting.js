@@ -98,12 +98,14 @@
 
         var _old_class = false;
         $(".wdpv_rating:not(.wdpv_static)")
-            .mouseover(function() {
+            /*.mouseover(function() {*/
+            .on( "mouseover", function() {
                 var $me = $(this);
                 _old_class = $me.attr('class').match(/\bwdpv_\d\d?_offset\b/);
                 $me.attr('class', $me.attr('class').replace(/\bwdpv_\d\d?_offset\b/, ''));
             })
-            .mousemove(function(e) {
+            /*.mousemove(function(e) {*/
+            .on( "mousemove", function(e) {
                 if (!_old_class) return;
                 var $me = $(this),
                     cls = $me.attr('class').replace(/\bwdpv_\d\d?_offset\b/, '');
@@ -127,7 +129,8 @@
                     .off('mouseover')
                     .off('mouseout');
             })
-            .mouseout(function() {
+            /*.mouseout(function() {*/
+            .on( "mouseout", function() {
                 var $me = $(this);
                 $me.attr('class', $me.attr('class').replace(/\bwdpv_\d\d?_offset\b/, ''));
                 var cls = $me.attr('class');

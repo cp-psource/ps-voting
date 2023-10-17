@@ -4,7 +4,7 @@ Donate link: https://n3rds.work/spendenaktionen/unterstuetze-unsere-psource-free
 Tags: multisite, abstimmung, voting, post,
 Requires at least: 4.9
 Tested up to: 5.6
-Stable tag: 2.3.1
+Stable tag: 2.3.2
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -25,8 +25,6 @@ Füge automatisch Abstimmungssymbole über oder unter Deinem Beitrag ein oder ve
 [POWERED BY PSOURCE](https://n3rds.work/psource_kategorien/psource-plugins/)
 
 [Projektseite](https://n3rds.work/piestingtal_source/beitrags-voting/)
-[Handbuch](https://n3rds.work/docs/beitrags-voting-handbuch/)
-[Supportforum](https://n3rds.work/forums/forum/ps-voting-supportforum/)
 [GitHub](https://github.com/piestingtal-source/ps-voting)
 
 == Mehr PSOURCE ==
@@ -52,7 +50,13 @@ Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswor
 
 == ChangeLog ==
 
-= 2.3.1 = DerN3rd =
+= 2.3.2 =
+
+Fix: Creation of dynamic property
+Fix: Deprecated jQuery
+Add: README.md
+
+= 2.3.1 =
 
 * PhP 8.1 Fix
 * Zeit-Array Strings-Verbesserung
@@ -60,18 +64,18 @@ Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswor
 * +Pot
 
 
-= 2.3.0 = DerN3rd =
+= 2.3.0 =
 
 * In der Aktivität (BuddyPress) klingt es jetzt nach einem Deutschen Satz
 * Fix Datenbankfehler
 * +Readme
 * PSource Updater v.1.1 integriert
 
-= 2.2.9 = DerN3rd =
+= 2.2.9 =
 
 * Fix Depracated create_function
 
-= 2.2.6 = DerN3rd =
+= 2.2.6 =
 
 * Overhauled von WPMUDEV
 * Release WMS N@W Netzwerksuche

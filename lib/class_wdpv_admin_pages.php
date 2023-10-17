@@ -5,6 +5,7 @@
 class Wdpv_AdminPages {
 	var $model;
 	var $data;
+	var $tabs;
 
 	function __construct () {
 		$this->model = new Wdpv_Model;
@@ -46,7 +47,7 @@ class Wdpv_AdminPages {
 			wp_redirect($goback);
 			die;
 		}
-		add_submenu_page('settings.php', __('Psource Voting', 'wdpv'), __('Psource Voting', 'wdpv'), 'manage_network_options', 'wdpv', array($this, 'create_admin_page'));
+		add_submenu_page('settings.php', __('PS Voting', 'wdpv'), __('PS Voting', 'wdpv'), 'manage_network_options', 'wdpv', array($this, 'create_admin_page'));
 		add_dashboard_page(__( 'Abstimmungsstatistik', 'wdpv' ), __( 'Abstimmungsstatistik', 'wdpv' ), 'manage_network_options', 'wdpv_stats', array($this, 'create_stats_page'));
 	}
 
