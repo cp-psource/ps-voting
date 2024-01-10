@@ -4,7 +4,7 @@ Donate link: https://n3rds.work/spendenaktionen/unterstuetze-unsere-psource-free
 Tags: multisite, abstimmung, voting, post,
 Requires at least: 4.9
 Tested up to: 5.6
-Stable tag: 2.3.2
+Stable tag: 2.3.3
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -49,6 +49,12 @@ Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswor
 
 
 == ChangeLog ==
+
+= 2.3.3 =
+
+* Update: PS Updater
+* Fix: Veraltetes JS
+* Textanpassung
 
 = 2.3.2 =
 

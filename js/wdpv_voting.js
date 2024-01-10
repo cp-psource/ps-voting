@@ -16,14 +16,14 @@
                     mbid = getBlogId($me);
                 if (pid == mpid && bid == mbid) { // If we have what we need, use that 
                     $me.find('.wdpv_vote_result_output')
-                        .html(result.data)
-                        .removeClass('wdpv_waiting');
+                    .html(result.data)
+                    .removeClass('wdpv_waiting');
                 }
                 // If we got here, we're on multiple posts page. Request update.
                 $.post(_wdpv_ajax_url, { "action": "wdpv_vote_results", "blog_id": mbid, "post_id": mpid }, function(result) {
                     $me.find('.wdpv_vote_result_output')
-                        .html(result.data)
-                        .removeClass('wdpv_waiting');
+                    .html(result.data)
+                    .removeClass('wdpv_waiting');
                 });
             });
         });
@@ -39,8 +39,8 @@
             var $obj = $(this);
             if (getPostId($obj) == pid && getBlogId($obj) == blog_id) {
                 $obj
-                    .off('click')
-                    .addClass('wdpv_disabled');
+                .off('click')
+                .addClass('wdpv_disabled');
             }
         });
 

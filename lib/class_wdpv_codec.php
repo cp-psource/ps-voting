@@ -71,7 +71,7 @@ class Wdpv_Codec {
 
 				$ret .= "<li>" .
 					"<a href='{$permalink}'>{$title}</a> " .
-					sprintf(__('<span class="wdpv_vote_count">(%s votes)</span>', 'wdpv'), $post['total']) .
+					sprintf(__('<span class="wdpv_vote_count">(%s Stimmen)</span>', 'wdpv'), $post['total']) .
 				"</li>";
 			}
 			$ret .= '</ul>';

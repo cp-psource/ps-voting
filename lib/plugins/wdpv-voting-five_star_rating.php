@@ -161,8 +161,6 @@ class Wdpv_Voting_FiveStarRating {
 	}
 }
 
-
-
 function wdpv_result_average ($post_id=false) {
 	global $blog_id, $post;
 	$post_id = $post_id ? $post_id : $post->ID;

@@ -100,7 +100,7 @@ msgstr ""
 
 #: lib/class_wdpv_codec.php:74
 #, php-format
-msgid "<span class=\"wdpv_vote_count\">(%s votes)</span>"
+msgid "<span class=\"wdpv_vote_count\">(%s Stimmen)</span>"
 msgstr ""
 
 #: lib/forms/plugin_shortcodes.php:99 lib/forms/plugin_shortcodes.php:198
