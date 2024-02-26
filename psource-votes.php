@@ -6,10 +6,10 @@ Description: Messe die Beliebtheit des Inhalts Deiner Webseite, indem Du Deine B
 Version: 2.3.3
 Requires at least: 4.9
 Text Domain: wdpv
-Author: WMS N@W
+Author: PSOURCE
 Author URI: https://n3rds.work
 
-Copyright 2020-2024 WMS N@W (https://n3rds.work)
+Copyright 2020-2024 PSOURCE (https://n3rds.work)
 Author - DerN3rd
 
 
@@ -38,24 +38,24 @@ define ('WDPV_PLUGIN_SELF_DIRNAME', basename(dirname(__FILE__)), );
 
 //Setup proper paths/URLs and load text domains
 if (is_multisite() && defined('WPMU_PLUGIN_URL') && defined('WPMU_PLUGIN_DIR') && file_exists(WPMU_PLUGIN_DIR . '/' . basename(__FILE__))) {
-	define ('WDPV_PLUGIN_LOCATION', 'mu-plugins', true);
-	define ('WDPV_PLUGIN_BASE_DIR', WPMU_PLUGIN_DIR, true);
-	define ('WDPV_PLUGIN_URL', str_replace('http://', (@$_SERVER["HTTPS"] == 'on' ? 'https://' : 'http://'), WPMU_PLUGIN_URL), true);
-	$textdomain_handler = 'load_muplugin_textdomain';
+    define('WDPV_PLUGIN_LOCATION', 'mu-plugins', true);
+    define('WDPV_PLUGIN_BASE_DIR', WPMU_PLUGIN_DIR, true);
+    define('WDPV_PLUGIN_URL', str_replace('http://', (isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] == 'on' ? 'https://' : 'http://'), WPMU_PLUGIN_URL), true);
+    $textdomain_handler = 'load_muplugin_textdomain';
 } else if (defined('WP_PLUGIN_URL') && defined('WP_PLUGIN_DIR') && file_exists(WP_PLUGIN_DIR . '/' . WDPV_PLUGIN_SELF_DIRNAME . '/' . basename(__FILE__))) {
-	define ('WDPV_PLUGIN_LOCATION', 'subfolder-plugins',);
-	define ('WDPV_PLUGIN_BASE_DIR', WP_PLUGIN_DIR . '/' . WDPV_PLUGIN_SELF_DIRNAME,);
-	define ('WDPV_PLUGIN_URL', str_replace('http://', (@$_SERVER["HTTPS"] == 'on' ? 'https://' : 'http://'), WP_PLUGIN_URL) . '/' . WDPV_PLUGIN_SELF_DIRNAME,);
-	$textdomain_handler = 'load_plugin_textdomain';
+    define('WDPV_PLUGIN_LOCATION', 'subfolder-plugins');
+    define('WDPV_PLUGIN_BASE_DIR', WP_PLUGIN_DIR . '/' . WDPV_PLUGIN_SELF_DIRNAME);
+    define('WDPV_PLUGIN_URL', str_replace('http://', (isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] == 'on' ? 'https://' : 'http://'), WP_PLUGIN_URL) . '/' . WDPV_PLUGIN_SELF_DIRNAME);
+    $textdomain_handler = 'load_plugin_textdomain';
 } else if (defined('WP_PLUGIN_URL') && defined('WP_PLUGIN_DIR') && file_exists(WP_PLUGIN_DIR . '/' . basename(__FILE__))) {
-	define ('WDPV_PLUGIN_LOCATION', 'plugins', true);
-	define ('WDPV_PLUGIN_BASE_DIR', WP_PLUGIN_DIR, true);
-	define ('WDPV_PLUGIN_URL', str_replace('http://', (@$_SERVER["HTTPS"] == 'on' ? 'https://' : 'http://'), WP_PLUGIN_URL), true);
-	$textdomain_handler = 'load_plugin_textdomain';
+    define('WDPV_PLUGIN_LOCATION', 'plugins', true);
+    define('WDPV_PLUGIN_BASE_DIR', WP_PLUGIN_DIR, true);
+    define('WDPV_PLUGIN_URL', str_replace('http://', (isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] == 'on' ? 'https://' : 'http://'), WP_PLUGIN_URL), true);
+    $textdomain_handler = 'load_plugin_textdomain';
 } else {
-	// No textdomain is loaded because we can't determine the plugin location.
-	// No point in trying to add textdomain to string and/or localizing it.
-	wp_die(__('Es gab ein Problem beim Bestimmen, wo das Psource Voting-Plugin installiert ist. Bitte erneut installieren.'));
+    // No textdomain is loaded because we can't determine the plugin location.
+    // No point in trying to add textdomain to string and/or localizing it.
+    wp_die(__('Es gab ein Problem beim Bestimmen, wo das Psource Voting-Plugin installiert ist. Bitte erneut installieren.'));
 }
 $textdomain_handler('wdpv', false, WDPV_PLUGIN_SELF_DIRNAME . '/languages/');
 

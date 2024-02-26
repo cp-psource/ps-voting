@@ -720,7 +720,7 @@ msgid "wird den Link \"Vote up\" für Deinen Beitrag mit der ID 12 zurückgeben.
 msgstr ""
 
 #. Author of the plugin
-msgid "WMS N@W"
+msgid "PSOURCE"
 msgstr ""
 
 #: lib/class_wdpv_admin_form_renderer.php:155

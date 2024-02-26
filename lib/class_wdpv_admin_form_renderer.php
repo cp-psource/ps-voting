@@ -9,8 +9,8 @@ class Wdpv_AdminFormRenderer {
 
 	function _create_checkbox ($name) {
 		$opt = $this->_get_option();
-		$value = @$opt[$name];
-		$disabled = (@$opt['disable_siteadmin_changes'] && !current_user_can('manage_network_options')) ? 'disabled="disabled"' : '';
+		$value = isset($opt[$name]) ? $opt[$name] : ''; // Prüfen, ob der Schlüssel vorhanden ist
+		$disabled = isset($opt['disable_siteadmin_changes']) && $opt['disable_siteadmin_changes'] && !current_user_can('manage_network_options') ? 'disabled="disabled"' : '';
 		return
 			"<input {$disabled} type='radio' name='wdpv[{$name}]' id='{$name}-yes' value='1' " . ((int)$value ? 'checked="checked" ' : '') . " /> " .
 				"<label for='{$name}-yes'>" . __('Ja', 'wdpv') . "</label>" .
@@ -22,7 +22,7 @@ class Wdpv_AdminFormRenderer {
 
 	function _create_radiobox ($name, $value) {
 		$opt = $this->_get_option();
-		$checked = (@$opt[$name] == $value) ? true : false;
+		$checked = isset($opt[$name]) && $opt[$name] == $value ? true : false; // Prüfen, ob der Schlüssel vorhanden ist
 		return "<input type='radio' name='wdpv[{$name}]' id='{$name}-{$value}' value='{$value}' " . ($checked ? 'checked="checked" ' : '') . " /> ";
 	}
 
@@ -117,7 +117,8 @@ class Wdpv_AdminFormRenderer {
 	function create_skip_post_types_box () {
 		$post_types = get_post_types(array('public'=>true), 'objects');
 		$opt = $this->_get_option();
-		$skip_types = is_array(@$opt['skip_post_types']) ? @$opt['skip_post_types'] : array();
+		// Prüfen, ob der Schlüssel 'skip_post_types' im Optionsarray vorhanden ist
+		$skip_types = isset($opt['skip_post_types']) && is_array($opt['skip_post_types']) ? $opt['skip_post_types'] : array();
 
 		foreach ($post_types as $tid=>$post_type_object) {
 			$checked = in_array($tid, $skip_types) ? 'checked="checked"' : '';

@@ -4,7 +4,7 @@ Plugin Name: Fünf Sterne Bewertung
 Description: Durch Aktivieren dieser Erweiterung wird das Up/Down-Voting in ein 5-Sterne-Bewertungssystem umgewandelt.
 Plugin URI: https://n3rds.work/piestingtal_source/beitrags-voting/
 Version: 1.0
-Author: DerN3rd (WMS N@W)
+Author: DerN3rd (PSOURCE)
 */
 
 class Wdpv_Voting_FiveStarRating {

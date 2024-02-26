@@ -4,7 +4,7 @@ Plugin Name: Tägliche Abstimmungen
 Description: Durch aktivieren wird Benutzern erlaubt jeden Tag neu abzustimmen.
 Plugin URI: https://n3rds.work/piestingtal_source/beitrags-voting/
 Version: 1.0
-Author: DerN3rd (WMS N@W)
+Author: DerN3rd (PSOURCE)
 */
 
 class Wdpv_Checks_AllowDailyVoting {

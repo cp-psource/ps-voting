@@ -1,5 +1,5 @@
 === PS Voting ===
-Contributors: DerN3rd (WMS N@W)
+Contributors: DerN3rd (PSOURCE)
 Donate link: https://n3rds.work/spendenaktionen/unterstuetze-unsere-psource-free-werke/
 Tags: multisite, abstimmung, voting, post,
 Requires at least: 4.9
@@ -22,7 +22,7 @@ Mit Stil abstimmen
 Wähle aus 6 Abstimmungssymbolstilen, die perfekt zum Erscheinungsbild Deiner Webseite passen. 
 Füge automatisch Abstimmungssymbole über oder unter Deinem Beitrag ein oder verwende Shortcodes für die benutzerdefinierte Integration.
 
-[POWERED BY PSOURCE](https://n3rds.work/psource_kategorien/psource-plugins/)
+[POWERED BY PSOURCE](https://github.com/cp-psource)
 
 [Projektseite](https://n3rds.work/piestingtal_source/beitrags-voting/)
 [GitHub](https://github.com/piestingtal-source/ps-voting)
@@ -50,6 +50,10 @@ Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswor
 
 == ChangeLog ==
 
+= 2.3.4 =
+
+* Fix: Undefined array key
+
 = 2.3.3 =
 
 * Update: PS Updater
@@ -58,9 +62,9 @@ Halte Dich mit unserem [Newsletter](https://n3rds.work/webmasterservice-n3rdswor
 
 = 2.3.2 =
 
-Fix: Creation of dynamic property
-Fix: Deprecated jQuery
-Add: README.md
+* Fix: Creation of dynamic property
+* Fix: Deprecated jQuery
+* Add: README.md
 
 = 2.3.1 =
 
@@ -84,4 +88,4 @@ Add: README.md
 = 2.2.6 =
 
 * Overhauled von WPMUDEV
-* Release WMS N@W Netzwerksuche
+* Release PSOURCE Netzwerksuche
