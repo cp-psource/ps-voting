@@ -2,7 +2,7 @@
 Contributors: DerN3rd (PSOURCE)
 Tags: multisite, abstimmung, voting, post,
 Requires at least: 4.9
-Tested up to: 5.1
+Tested up to: 6.1
 Stable tag: 2.3.3
 Requires PHP: 7.0
 License: GPLv2 or later
