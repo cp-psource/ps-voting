@@ -3,7 +3,7 @@ Contributors: DerN3rd (PSOURCE)
 Tags: multisite, abstimmung, voting, post,
 Requires at least: 4.9
 Tested up to: 6.1
-Stable tag: 2.3.3
+Stable tag: 2.3.4
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -31,6 +31,8 @@ Füge automatisch Abstimmungssymbole über oder unter Deinem Beitrag ein oder ve
 = 2.3.4 =
 
 * Fix: Undefined array key
+* Add: Docs
+* Updater 1.3
 
 = 2.3.3 =
 

@@ -3,7 +3,7 @@
 Plugin Name: PS Voting
 Plugin URI: https://cp-psource.github.io/ps-voting/
 Description: Messe die Beliebtheit des Inhalts Deiner Webseite, indem Du Deine Besucher oder Benutzer über diesen Inhalt abstimmen lässt. So ähnlich wie Dein persönliches Digg oder Reddit, und es steckt voller Funktionen!
-Version: 2.3.3
+Version: 2.3.4
 Requires at least: 4.9
 Text Domain: wdpv
 Author: PSOURCE
